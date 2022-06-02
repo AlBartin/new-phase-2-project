@@ -1,0 +1,58 @@
+body {
+  display: grid;
+  margin: 0;
+  font-family: monospace;
+  background-color: rgb(252, 235, 184);
+  grid-template-rows: 10vh 90;
+  grid-template-columns: 100vw ;
+}
+
+.nav-bar {
+  height: 8vh;
+  width: 100vw;
+  background-color: rgb(159, 98, 0);
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  border-radius: 15px;
+  border: 20px solid (159, 98, 0);
+}
+
+.dog-container {
+
+}
+
+.card {
+  text-align: center;
+  border: rgb(159, 98, 0) solid 1px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 3px 4px #fcd22ad3
+}
+
+.dog-picture {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+
+.like-button {
+  position: relative;
+  border: none;
+  background-color:rgb(252, 235, 184);
+  border-radius: 5px;
+  height: 3rem;
+  width: max-content;
+  font-size: 25px;
+  justify-self: left;
+  margin-bottom: 2px;
+}
+
+.like-button:hover {
+  background-color:rgb(159, 98, 0) 
+}
