@@ -3,8 +3,8 @@ body {
   margin: 0;
   font-family: monospace;
   background-color: rgb(252, 235, 184);
-  grid-template-rows: 10vh 90;
-  grid-template-columns: 100vw ;
+  grid-template-rows: 10vh, 90;
+  grid-template-columns: 20vw, 80vw;
 }
 
 .nav-bar {
@@ -12,16 +12,43 @@ body {
   width: 100vw;
   background-color: rgb(159, 98, 0);
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 1 / span 2;
   display: flex;
   justify-content: right;
   align-items: right;
-  border-radius: 15px;
-  border: 20px solid (159, 98, 0);
+  border: 20px solid rgb(159, 98, 0);
+}
+
+.side-bar {
+  height: 50vh;
+  width: 20vw;
+  background-color: rgb(159, 98, 0);
+  grid-row: 2;
+  grid-column: 1;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  border: 5px solid rgb(159, 98, 0)
 }
 
 .dog-container {
+  height: 92vh;
+  width: 80vw;
+  float: right;
+  grid-row: 2;
+  grid-column: 2;
+  display: wrap;
+  border: 5px solid rgb(252, 235, 184);
 
+}
+
+.nav-links {
+  font-family: monospace;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+  border:rgb(252, 235, 184);
+  padding: 3rem;
 }
 
 .card {

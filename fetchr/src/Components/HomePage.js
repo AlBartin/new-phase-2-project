@@ -1,35 +1,29 @@
 import React, {useState, useEffect} from 'react'
 import DogContainer from './DogContainer'
 import Sidebar from './Sidebar'
-import Favorites from './Favorites'
+import Profile from './Profile'
+import Navbar from './Navbar'
 
-function HomePage() {
+function HomePage({ dogs, onAddProfile, setProfile, addFavorite, addDog }) {
 
-  const [dogs, setDogs] = useState([])
-  //const all = ["All", ...dogs.map(dog => dog.age)]
-
-  useEffect(() => {
-    fetch ('http://localhost:3000/dogs')
-    .then (resp => resp.json())
-    .then ( setDogs )
-  },[])
-
-
-  const handleFilter = (event) => {
-    const dogTarget = event.target.name
-    console.log(dogTarget);
-    const filteredDogs = dogs.filter(dog => dog.dogTarget === event);
-    setDogs(filteredDogs)
-  }
   return (
     <div>
 
-      <DogContainer dogs={dogs} />
-      <Sidebar handleFilter={handleFilter} />
-
+      <DogContainer addFavorite={addFavorite} dogs={dogs} onAddProfile={onAddProfile} setProfile={setProfile} />
+      <Sidebar addDog={addDog}/>
 
     </div>
   )
 }
 
 export default HomePage
+
+
+
+
+  // const handleFilter = (event) => {
+  //   const dogTarget = event.target.name
+  //   console.log(dogTarget);
+  //   const filteredDogs = dogs.filter(dog => dog.dogTarget === event);
+  //   setDogs(filteredDogs)
+  // }

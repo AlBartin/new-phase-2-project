@@ -1,12 +1,12 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import DogCard from './DogCard'
 
 
-function DogContainer({dogs}) {
+function DogContainer({ dogs, onAddProfile, setProfile, addFavorite }) {
     
-    const dogDisplay = dogs.map((dog) => <DogCard {...dog} key={dog.id} />)
+    const dogDisplay = dogs.map((dog) => <DogCard dog={dog} key={dog.id} onAddProfile={onAddProfile} setProfile={setProfile} addFavorite={addFavorite}/>)
   return (
-    <div>
+    <div className="dog-container">
         {dogDisplay}
     </div>
   )
