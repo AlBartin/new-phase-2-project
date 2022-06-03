@@ -1,22 +1,24 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 
 
 function DogCard({ dog, onAddProfile, setProfile, addFavorite }) {
 
+   
 
 
 const handleClick = (event) => {
-    const dogID = event.target.name
-    console.log(dog.name)
-    console.log("New Profile is set: ", dog)
+    // const dogID = event.target.name
+    // console.log(dog.name)
+    // console.log("New Profile is set: ", dog)
     setProfile(dog)
     onAddProfile(dog);
 }
 
 const handleFavoriteClick = (event) => {
-    addFavorite(event.target.value)
+        addFavorite(event.target.value)
   }
+  
 
   return (
     <div className="card">
@@ -26,11 +28,14 @@ const handleFavoriteClick = (event) => {
         <Link to="/profile">
         <img src={dog.image} alt={dog.name} name={dog.id} className="dog-picture" onClick={handleClick}  style={{cursor:"pointer"}}/>
         </Link>
-        <p>{dog.sex}</p>
-        <p>Age: {dog.age}</p>
-        <p>Breed: {dog.breed}</p>
-        <button className="like-button">❤️</button>
-        <button className="add-favorite" value={dog.id} onClick={handleFavoriteClick}>Add to Favorites</button>
+        <div className="dog-details-section">
+        <ul className="dog-detail-list">
+            <li >{dog.sex}</li>
+            <li>Age: {dog.age}</li>
+            <li>Breed: {dog.breed}</li>
+        </ul>
+        </div>
+        <button className="like-button" value={dog.id} onClick={handleFavoriteClick}>❤️ Add to Favorites</button>
     </div>
   )
 }

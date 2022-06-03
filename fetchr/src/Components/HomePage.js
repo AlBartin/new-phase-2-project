@@ -1,15 +1,14 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import DogContainer from './DogContainer'
 import Sidebar from './Sidebar'
-import Profile from './Profile'
-import Navbar from './Navbar'
 
-function HomePage({ dogs, onAddProfile, setProfile, addFavorite, addDog }) {
+
+function HomePage({ dogs, onAddProfile, setProfile, addFavorite, addDog, removeFavorite }) {
 
   return (
     <div>
 
-      <DogContainer addFavorite={addFavorite} dogs={dogs} onAddProfile={onAddProfile} setProfile={setProfile} />
+      <DogContainer removeFavorite={removeFavorite} addFavorite={addFavorite} dogs={dogs} onAddProfile={onAddProfile} setProfile={setProfile} />
       <Sidebar addDog={addDog}/>
 
     </div>

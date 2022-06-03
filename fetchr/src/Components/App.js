@@ -12,6 +12,7 @@ function App() {
   const [profile, setProfile] = useState({})
   const [favorite, setFavorite] = useState([])
 
+
   useEffect(() => {
     fetch ('http://localhost:3000/dogs')
     .then (resp => resp.json())
@@ -25,11 +26,15 @@ function App() {
 
   function addFavorite(dogID) {
     const matchedDog = dogs.find((dog) => {
-      console.log(dog)
       if (dogID === `${dog.id}`) {return true}
       else {return false}
     })
     setFavorite([...favorite, matchedDog])
+  }
+
+  function removeFavorite(dogID) {
+    const newFavorite = favorite.filter(dog => (parseInt(dog.id) !== parseInt(dogID)));
+    setFavorite([...newFavorite])
   }
 
   function addDog(newDog) {
@@ -40,8 +45,8 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-        <Route path="/" element={<HomePage addDog={addDog} addFavorite={addFavorite} dogs={dogs} setProfile={setProfile} onAddProfile={onAddProfile}/>} />
-        <Route path="/favorites" element={<Favorites favorite={favorite}/>} />
+        <Route path="/" element={<HomePage addDog={addDog} removeFavorite={removeFavorite} addFavorite={addFavorite} dogs={dogs} setProfile={setProfile} onAddProfile={onAddProfile}/>} />
+        <Route path="/favorites" element={<Favorites favorite={favorite} removeFavorite={removeFavorite} />} />
         <Route path="/profile" element={ profile && (<Profile profile={profile}/>)} />
         </Routes>
       </Router>

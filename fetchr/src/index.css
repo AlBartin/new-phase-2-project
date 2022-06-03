@@ -1,10 +1,31 @@
 body {
   display: grid;
   margin: 0;
-  font-family: monospace;
+  font-family: 'Montserrat Alternates', sans-serif;
   background-color: rgb(252, 235, 184);
   grid-template-rows: 10vh, 90;
   grid-template-columns: 20vw, 80vw;
+}
+
+h1 {
+  padding-left: 4px;
+  font-size: 50px;
+  color: black;
+  display: inline;
+  float: right;
+  border-bottom: none;
+
+}
+
+#logo {
+  height: 8vh;
+  width: 8vw;
+  display: inline;
+  margin-left:0px;
+  justify-content: left;
+  justify-items: left;
+  align-items: left;
+  padding-bottom: 8px;
 }
 
 .nav-bar {
@@ -13,9 +34,8 @@ body {
   background-color: rgb(159, 98, 0);
   grid-row: 1;
   grid-column: 1 / span 2;
-  display: flex;
-  justify-content: right;
-  align-items: right;
+  display: inline-flex;
+  justify-content: space-around;
   border: 20px solid rgb(159, 98, 0);
 }
 
@@ -66,6 +86,12 @@ body {
   justify-self: center;
   height: 12rem;
   width: auto;
+}
+
+.dog-detail-list {
+  list-style: none;
+  padding: 0px;
+  font-size: 18px;
 }
 
 .like-button {

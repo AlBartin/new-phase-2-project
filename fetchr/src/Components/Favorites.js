@@ -1,18 +1,17 @@
 import React from 'react'
-import FavoriteDogCard from './DogCard'
+import FavoriteDogCard from './FavoriteDogCard'
 
-function Favorites({favorite}) {
-
-    console.log('favoritespage:', favorite)
-    if (!favorite) {return (
+function Favorites({favorite, removeFavorite}) {
+  console.log(favorite)
+  // if (!favorite) {return (
+  //     <div>
+  //       <h1>“You don’t have any favorites yet!”</h1>
+  //     </div>
+  //   )}
+    const favoritedDogCards = favorite.map((dog) => <FavoriteDogCard dog={dog} key={dog.id} removeFavorite={removeFavorite}/>)
+    return (
       <div>
-        “You don’t have any favorites yet!”
-      </div>
-    )}
-    const favoritedDogCards = favorite.map((dog) => <FavoriteDogCard dog={dog} key={dog.id}/>)
-  return (
-    <div>
-        {favoritedDogCards}
+        {favorite ? favoritedDogCards : <h2>"You don't have any favorites yet!"</h2>}
       </div>
   )
 }

@@ -413,9 +413,9 @@
       "age": "5",
       "likes": "Walks and hikes",
       "dislikes": "Water",
-      "size": "",
-      "sex": "",
-      "location": "",
+      "size": "medium",
+      "sex": "girl",
+      "location": "hiking trail",
       "id": 18
     }
   ]

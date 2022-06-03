@@ -5,7 +5,7 @@ function Profile({ profile }) {
     console.log({profile})
     return (
     <div>
-        <h1>{profile.name}</h1>
+        <h2>{profile.name}</h2>
         <img src={profile.image} alt={profile.name}/>
         <h2>Breed: {profile.breed}</h2>
         <h3>Age: {profile.age}</h3>

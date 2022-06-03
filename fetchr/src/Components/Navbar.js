@@ -5,7 +5,10 @@ function Navbar() {
   return (
       <header>
         <nav className="nav-bar">
-            <Link to="/" className="nav-links">Home</Link>
+            <Link to="/" id="logo" style={{ textDecoration: 'none' }}>
+                <img src="https://i.imgur.com/gDPAnGz.png" alt="logo"/>
+                <h1>fetchr</h1>
+            </Link>
             <NavLink to="/favorites" className="nav-links">Favorites</NavLink>
             <NavLink to="/profile" className="nav-links">Profile</NavLink>
         </nav>

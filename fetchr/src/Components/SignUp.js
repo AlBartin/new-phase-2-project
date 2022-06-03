@@ -65,16 +65,16 @@ function SignUp( {addDog }) {
             What are your pet peeves? <br/>
             <input name="dislikes" value={userSubmit.dislikes} onChange={handleChange} placeholder="Pet peeves" /><br/>
             How big are you? <br/>
-            <input name="size" value={userSubmit.size} type="checkbox" onChange={handleChange} /> Large <br/>
-            <input name="size" value={userSubmit.size} type="checkbox" onChange={handleChange} /> Medium <br/>
-            <input name="size" value={userSubmit.size} type="checkbox" onChange={handleChange} /> Small <br/>
+            <input name="size" value="large" type="checkbox" onChange={handleChange} /> Large <br/>
+            <input name="size" value="medium" type="checkbox" onChange={handleChange} /> Medium <br/>
+            <input name="size" value="small" type="checkbox" onChange={handleChange} /> Small <br/>
             Are you a boy or a girl? <br/>
-            <input name="sex" value={userSubmit.sex} type="checkbox" onChange={handleChange} /> Boy <br/>
-            <input name="sex" value={userSubmit.sex} type="checkbox" onChange={handleChange} /> Girl <br/>
+            <input name="sex" value="boy" type="checkbox" onChange={handleChange} /> Boy <br/>
+            <input name="sex" value="girl" type="checkbox" onChange={handleChange} /> Girl <br/>
             Where can we meet? <br/>
-            <input name="location" value={userSubmit.location} onChange={handleChange} type="checkbox"/> Dog Park <br/>
-            <input name="location" value={userSubmit.location} onChange={handleChange} type="checkbox"/> Beach <br/>
-            <input name="location" value={userSubmit.location} onChange={handleChange} type="checkbox"/> Hiking Trail <br/>
+            <input name="location" value="dog park" onChange={handleChange} type="checkbox"/> Dog Park <br/>
+            <input name="location" value="beach" onChange={handleChange} type="checkbox"/> Beach <br/>
+            <input name="location" value="hiking trail" onChange={handleChange} type="checkbox"/> Hiking Trail <br/>
             <input type="submit" value="Sign Up!"/>
         </form>   
 </div>
