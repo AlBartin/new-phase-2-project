@@ -25,12 +25,15 @@ function App() {
   }
 
   function addFavorite(dogID) {
+    const duplicateDog = favorite.find((dog) => dogID === `${dog.id}`)
+    if (duplicateDog) {return alert(`You already favorited ${duplicateDog.name}!`)}
     const matchedDog = dogs.find((dog) => {
       if (dogID === `${dog.id}`) {return true}
       else {return false}
     })
     setFavorite([...favorite, matchedDog])
   }
+
 
   function removeFavorite(dogID) {
     const newFavorite = favorite.filter(dog => (parseInt(dog.id) !== parseInt(dogID)));

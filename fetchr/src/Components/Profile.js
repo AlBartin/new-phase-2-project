@@ -7,17 +7,18 @@ function Profile({ profile }) {
     <div className = "profile">
         <h2>{profile.name}</h2>
         <img src={profile.image} alt={profile.name}/>
-        <h2>Breed: {profile.breed}</h2>
-        <h3>Age: {profile.age}</h3>
-        <h3>Size: {profile.size}</h3>
-        <h3>Sex: {profile.sex}</h3>
-        <h3>Location: {profile.location}</h3>
-        <ul>Comments: {profile.comments}</ul>
-        <ul>Connections: {profile.connections}</ul>
-        <ul>Likes: {profile.likes}
+        <ul className="first-profile-ul">
+            <li><strong>I am a:</strong> {profile.breed}</li>
+            <li><strong>Age:</strong> {profile.age}</li>
+            <li><strong>Size:</strong> {profile.size}</li>
+            <li><strong>I am a:</strong>: {profile.sex}</li>
+            <li><strong>Favorite Spot:</strong> {profile.location}</li>
+            <li><strong>I Like:</strong> {profile.likes}</li>
+            <li><strong>I Don't Like:</strong> {profile.dislikes}</li>
         </ul>
-        <ul>Dislikes: {profile.dislikes}</ul>
-        <Form />
+        {/* <ul>Comments: {profile.comments}</ul>
+        <ul>Connections: {profile.connections}</ul>
+        <Form /> */}
 
     </div>
   )

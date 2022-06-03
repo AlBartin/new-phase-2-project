@@ -6,16 +6,8 @@
       "image": "https://i.imgur.com/firIiIl.jpg",
       "breed": "Frenchton",
       "age": "2",
-      "likes": [
-        "all the chew toys",
-        "pets from strangers",
-        "listening to Lady Gaga"
-      ],
-      "dislikes": [
-        "sitting still",
-        "bedtime",
-        "waiting for dinner to be served"
-      ],
+      "likes": "listening to Lady Gaga",
+      "dislikes": "waiting for dinner to be served",
       "size": "small",
       "sex": "girl",
       "location": "beach",
@@ -30,14 +22,8 @@
       "image": "https://i.imgur.com/WReFOMO.jpg",
       "breed": "Husky",
       "age": "4",
-      "likes": [
-        "smiling for the camera",
-        "playing with puppies",
-        "belly rubs"
-      ],
-      "dislikes": [
-        "NONE"
-      ],
+      "likes": "smiling for the camera",
+      "dislikes": "NONE",
       "size": "large",
       "sex": "girl",
       "location": "hiking trail",
@@ -50,20 +36,12 @@
       "id": 3,
       "name": "Chenkhov",
       "image": "https://i.imgur.com/bmo8B8J.jpg",
-      "breed": "Labrado Retriever",
+      "breed": "Labrador Retriever",
       "age": "10",
-      "likes": [
-        "chasing laser pointer",
-        "naps",
-        "blueberries"
-      ],
-      "dislikes": [
-        "fireworks",
-        "FedEx delivery man",
-        "fruit as treats"
-      ],
+      "likes": "chasing laser pointer",
+      "dislikes": "fruits as treats",
       "size": "large",
-      "sex": "male",
+      "sex": "boy",
       "location": "hiking trail",
       "comments": [
         ""
@@ -76,18 +54,10 @@
       "image": "https://i.imgur.com/A5YcgqH.jpg",
       "breed": "Beagle",
       "age": "2",
-      "likes": [
-        "barking",
-        "peas",
-        "being chased"
-      ],
-      "dislikes": [
-        "farting",
-        "bathtime",
-        "fetch"
-      ],
+      "likes": "peas",
+      "dislikes": "bathtime",
       "size": "small",
-      "sex": "male",
+      "sex": "boy",
       "location": "beach",
       "comments": [
         ""
@@ -100,16 +70,8 @@
       "image": "https://i.imgur.com/HQnkj3k.jpg",
       "breed": "Border Collie Mix",
       "age": "5",
-      "likes": [
-        "belly rubs",
-        "chicken",
-        "water"
-      ],
-      "dislikes": [
-        "other dogs",
-        "cars",
-        "people"
-      ],
+      "likes": "belly rubs",
+      "dislikes": "people",
       "size": "medium",
       "sex": "girl",
       "location": "hiking trail",
@@ -124,16 +86,8 @@
       "image": "https://i.imgur.com/d3YS6zN.jpg?1",
       "breed": "French Bulldog",
       "age": "2",
-      "likes": [
-        "puppycinos from Starbucks",
-        "car rides",
-        "barking at strangers"
-      ],
-      "dislikes": [
-        "being picked up",
-        "being told to be quiet",
-        "climbing up stairs"
-      ],
+      "likes": "puppycinos from Starbucks",
+      "dislikes": "being picked up",
       "size": "small",
       "sex": "girl",
       "location": "beach",
@@ -148,18 +102,10 @@
       "image": "https://i.imgur.com/ZsJdCOM.jpg",
       "breed": "Malti-Poo",
       "age": "9",
-      "likes": [
-        "playing fetch",
-        "long walks",
-        "car rides"
-      ],
-      "dislikes": [
-        "large dogs",
-        "thunder",
-        "when the human pretends to throw the ball"
-      ],
+      "likes": "playing fetch",
+      "dislikes": "large dogs",
       "size": "small",
-      "sex": "male",
+      "sex": "boy",
       "location": "dog park",
       "comments": [
         ""
@@ -172,18 +118,10 @@
       "image": "https://i.imgur.com/8LOKQTJ.jpg?1",
       "breed": "Husky",
       "age": "6",
-      "likes": [
-        "chewing on bones",
-        "belly rubs",
-        "getting brushed"
-      ],
-      "dislikes": [
-        "puppycinnos from Starbucks",
-        "watching tv",
-        "running"
-      ],
+      "likes": "getting brushed",
+      "dislikes": "watching tv",
       "size": "large",
-      "sex": "female",
+      "sex": "girl",
       "location": "hiking trail",
       "comments": [
         ""
@@ -196,18 +134,10 @@
       "image": "https://i.imgur.com/Ur8VS7g.jpg?1",
       "breed": "Poodle",
       "age": "4",
-      "likes": [
-        "scraps as treats",
-        "chasing squirrels",
-        "car rides"
-      ],
-      "dislikes": [
-        "getting stared at",
-        "puppies smaller than her",
-        "other people"
-      ],
+      "likes": "scraps as treats",
+      "dislikes": "puppies smaller than her",
       "size": "small",
-      "sex": "female",
+      "sex": "girl",
       "location": "dog park",
       "comments": [
         ""
@@ -220,18 +150,10 @@
       "image": "https://i.imgur.com/ADruPy0.jpg?1",
       "breed": "Cocker Spaniel",
       "age": "9",
-      "likes": [
-        "playing with puppies",
-        "barking at mailman",
-        "watching Real Housewives"
-      ],
-      "dislikes": [
-        "loud dogs",
-        "thunder",
-        "seafood"
-      ],
+      "likes": "watching Real Housewives",
+      "dislikes": "seafood",
       "size": "small",
-      "sex": "female",
+      "sex": "girl",
       "location": "dog park",
       "comments": [
         ""
@@ -244,18 +166,10 @@
       "image": "https://i.imgur.com/itzygZ7.jpg",
       "breed": "Pug",
       "age": "6",
-      "likes": [
-        "posing for the camera",
-        "traveling",
-        "puppycinos from Starbucks"
-      ],
-      "dislikes": [
-        "seafood",
-        "squeaky toys",
-        "fake bones"
-      ],
+      "likes": "traveling",
+      "dislikes": "squeaky toys",
       "size": "small",
-      "sex": "male",
+      "sex": "boy",
       "location": "beach",
       "comments": [
         ""
@@ -268,18 +182,10 @@
       "image": "https://i.imgur.com/L1ZyKi8.jpg",
       "breed": "Yorkie",
       "age": "3",
-      "likes": [
-        "jumping through hoops",
-        "cliffdiving",
-        "somersaults"
-      ],
-      "dislikes": [
-        "sitting still",
-        "bedtime",
-        "being carried"
-      ],
+      "likes": "cliffdiving",
+      "dislikes": "bedtime",
       "size": "small",
-      "sex": "male",
+      "sex": "boy",
       "location": "dog park",
       "comments": [
         ""
@@ -292,18 +198,10 @@
       "image": "https://i.imgur.com/g6YVeVV.jpg",
       "breed": "Pointer",
       "age": "3",
-      "likes": [
-        "walks",
-        "beach",
-        "car rides"
-      ],
-      "dislikes": [
-        "the mailman",
-        "dry kibble",
-        "fireworks"
-      ],
+      "likes": "walks",
+      "dislikes": "the mailman",
       "size": "large",
-      "sex": "male",
+      "sex": "boy",
       "location": "dog park",
       "comments": [
         ""
@@ -316,18 +214,10 @@
       "image": "https://i.imgur.com/73cefIJ.jpg",
       "breed": "Bloodhound",
       "age": "4",
-      "likes": [
-        "playing fetch",
-        "chewing furniture",
-        "bones"
-      ],
-      "dislikes": [
-        "bedtime",
-        "insects",
-        "bigger dogs"
-      ],
+      "likes": "chewing furniture",
+      "dislikes": "bigger dogs",
       "size": "large",
-      "sex": "male",
+      "sex": "boy",
       "location": "hiking trail",
       "comments": [
         ""
@@ -340,18 +230,10 @@
       "image": "https://i.imgur.com/xyazDKv.jpg?1",
       "breed": "Rough Collie",
       "age": "5",
-      "likes": [
-        "running",
-        "barking",
-        "fetch"
-      ],
-      "dislikes": [
-        "rain",
-        "thunder",
-        "loud bangs"
-      ],
+      "likes": "barking",
+      "dislikes": "rain",
       "size": "large",
-      "sex": "female",
+      "sex": "girl",
       "location": "hiking trail",
       "comments": [
         ""
@@ -364,18 +246,10 @@
       "image": "https://i.imgur.com/FIG5b3F.jpg?1",
       "breed": "Jack Russell Terrier",
       "age": "3",
-      "likes": [
-        "playing fetch",
-        "barking at passing cars",
-        "barking at strangers"
-      ],
-      "dislikes": [
-        "thunder",
-        "when his human does not throw the ball",
-        "puppies"
-      ],
+      "likes": "barking at passing cars",
+      "dislikes": "when his human does not throw the ball",
       "size": "small",
-      "sex": "male",
+      "sex": "boy",
       "location": "dog park",
       "comments": [
         ""
@@ -388,18 +262,10 @@
       "image": "https://i.imgur.com/hs2uunN.jpg",
       "breed": "Mix",
       "age": "5",
-      "likes": [
-        "boat rides",
-        "car rides",
-        "chasing cars"
-      ],
-      "dislikes": [
-        "bathtime",
-        "getting brushed",
-        "the blowdrier"
-      ],
+      "likes": "boat rides",
+      "dislikes": "the blowdrier",
       "size": "large",
-      "sex": "male",
+      "sex": "boy",
       "location": "beach",
       "comments": [
         ""
@@ -417,6 +283,18 @@
       "sex": "girl",
       "location": "hiking trail",
       "id": 18
+    },
+    {
+      "name": "",
+      "image": "",
+      "breed": "",
+      "age": "",
+      "likes": "",
+      "dislikes": "",
+      "size": "",
+      "sex": "",
+      "location": "",
+      "id": 19
     }
   ]
 }

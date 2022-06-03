@@ -6,7 +6,7 @@ function Navbar() {
       <header>
         <nav className="nav-bar">
             <Link to="/" id="logo" style={{ textDecoration: 'none' }}>
-                <img src="https://i.imgur.com/gDPAnGz.png" alt="logo"/>
+                <img src="https://i.imgur.com/Tbe2Klk.png" alt="logo"/>
                 
             </Link>
             <NavLink to="/favorites" className="nav-links">Favorites</NavLink>

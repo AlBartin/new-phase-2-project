@@ -2,19 +2,18 @@ body {
   display: grid;
   margin: 0;
   font-family: "Montserrat Alternates", sans-serif;
-  background-color: rgb(150, 170, 176);
   grid-template-rows: 10vh, 90;
   grid-template-columns: 20vw, 80vw;
 }
 
-h1 {
+/* h1 {
   padding-left: 4px;
   font-size: 50px;
   color: black;
   display: inline;
   float: right;
   border-bottom: none;
-}
+} */
 
 /* #logo {
   height: 8vh;
@@ -40,31 +39,74 @@ h1 {
 }
 .nav-bar img {
   position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 50px;
+  margin-top: 3.5vh;
+  left: 20px;
+  height: 70px;
   padding: 10px;
 }
 
 .side-bar {
-  height: 50vh;
-  width: 20vw;
+  height: 55vh;
+  width: 19vw;
   background-color: rgb(69, 67, 61);
   grid-row: 2;
   grid-column: 1;
   align-items: center;
   border-radius: 20px;
+  align-content: center;
+  color: rgb(215,224,230);
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.sidebar-div {
+  height: 50vh;
+  width: 19vw;
+  background-color: white;
+  grid-row: 2;
+  grid-column: 1;
+  align-items: center;
+  border-radius: 20px;
+  align-content: center;
+  color: rgb(215,224,230);
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 .form {
   padding: 20px;
 }
-.sidebar-button {
-  width: 90px;
-  height: 30px;
+
+.form input {
+  padding: 2px;
+}
+
+.form-button {
+  width: 120px;
+  height: 35px;
   text-overflow: clip;
   border-radius: 10px;
   background-color: rgb(215, 224, 230);
+  align-items: center;
+  margin-left: 29%;
+  margin-right: 35%;
+  margin-top: 5%;
+  font-size: 100%;
+  font-weight: bolder;
+}
+
+.sidebar-button {
+  width: 120px;
+  height: 35px;
+  text-overflow: clip;
+  border-radius: 10px;
+  background-color: rgb(215, 224, 230);
+  align-items: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 5%;
+  font-size: 100%;
+  font-weight: bolder;
 }
 .dog-container {
   height: 92vh;
@@ -73,6 +115,7 @@ h1 {
   grid-row: 2;
   grid-column: 2;
   display: wrap;
+  background-color: white;
 }
 
 .nav-links {
@@ -83,6 +126,7 @@ h1 {
   cursor: pointer;
   border: rgb(252, 235, 184);
   padding: 3rem;
+  margin-top: 2vh;
 }
 
 .nav-links:hover {
@@ -91,15 +135,19 @@ h1 {
 
 .card {
   text-align: center;
-  /* border: rgb(159, 98, 0) solid 1px; */
   background-color: rgb(215, 224, 230);
   padding: 1rem;
   width: 15rem;
   height: 25rem;
   display: inline-grid;
   margin: 1rem 2rem;
-  /* box-shadow: 3px 4px #fcd22ad3; */
   border-radius: 20px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  /* border: rgb(179,107,57) solid 1px; */
+  box-shadow: 3px 4px rgb(179,107,57);
 }
 
 .dog-picture {
@@ -117,7 +165,7 @@ h1 {
 .like-button {
   position: relative;
   border: none;
-  background-color: rgb(179,107,57);
+  background-color: rgb(215, 224, 230);
   border-radius: 5px;
   height: 3rem;
   width: max-content;
@@ -129,11 +177,49 @@ h1 {
 }
 
 .like-button:hover {
-  background-color: rgb(159, 98, 0);
+  background-color: rgb(150,170,176);
 }
 
+.profile {
+  text-align: center;
+  background-color: rgb(215, 224, 230);
+  padding: 1rem;
+  width: 40vw;
+  height: 90vh;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  border-radius: 20px;
+  margin-left: 30vw;
+}
+
+.first-profile-ul {
+  font-size: 20px;
+  list-style: none;
+}
 
 .profile img {
-  width:auto;
-  height: 500px
+  max-width: 100%;
+  max-height: 700px;
+  justify-self: center;
+  display: block;
+}
+
+.profile h2 {
+  font-size: 60px;
+  justify-content: center;
+  justify-self: center;
+  align-self: center;
+}
+
+.profile ul {
+  font-size: 35px;
+}
+
+.profile li {
+  padding: 2px;
+}
+
+.favorite-h1 {
+  text-align: center;
+  margin-top: 30%;
 }
