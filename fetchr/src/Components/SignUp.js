@@ -49,7 +49,7 @@ function SignUp( {addDog }) {
     }
 
   return (
-    <div>
+    <div className= "form">
         <h2> Sign Up </h2>        
         <form onSubmit={handleSubmit}>
             What is your name? <br/>

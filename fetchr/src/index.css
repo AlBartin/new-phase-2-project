@@ -1,8 +1,8 @@
 body {
   display: grid;
   margin: 0;
-  font-family: 'Montserrat Alternates', sans-serif;
-  background-color: rgb(252, 235, 184);
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: rgb(150, 170, 176);
   grid-template-rows: 10vh, 90;
   grid-template-columns: 20vw, 80vw;
 }
@@ -14,43 +14,58 @@ h1 {
   display: inline;
   float: right;
   border-bottom: none;
-
 }
 
-#logo {
+/* #logo {
   height: 8vh;
-  width: 8vw;
+  width: 8vw; 
   display: inline;
   margin-left:0px;
   justify-content: left;
   justify-items: left;
   align-items: left;
-  padding-bottom: 8px;
-}
+  padding-bottom: 8px; 
+} */
 
 .nav-bar {
-  height: 8vh;
+  height: 12vh;
   width: 100vw;
-  background-color: rgb(159, 98, 0);
+  background-color: rgb(150, 170, 176);
   grid-row: 1;
   grid-column: 1 / span 2;
   display: inline-flex;
-  justify-content: space-around;
-  border: 20px solid rgb(159, 98, 0);
+  justify-content: flex-end;
+  position: relative;
+  margin-bottom: 15px;
+}
+.nav-bar img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  padding: 10px;
 }
 
 .side-bar {
   height: 50vh;
   width: 20vw;
-  background-color: rgb(159, 98, 0);
+  background-color: rgb(69, 67, 61);
   grid-row: 2;
   grid-column: 1;
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  border: 5px solid rgb(159, 98, 0)
+  align-items: center;
+  border-radius: 20px;
 }
 
+.form {
+  padding: 20px;
+}
+.sidebar-button {
+  width: 90px;
+  height: 30px;
+  text-overflow: clip;
+  border-radius: 10px;
+  background-color: rgb(215, 224, 230);
+}
 .dog-container {
   height: 92vh;
   width: 80vw;
@@ -58,28 +73,33 @@ h1 {
   grid-row: 2;
   grid-column: 2;
   display: wrap;
-  border: 5px solid rgb(252, 235, 184);
-
 }
 
 .nav-links {
-  font-family: monospace;
+  font-family: "Montserrat Alternates", sans-serif;
+  text-decoration: none;
   font-size: 40px;
-  color: white;
+  color: rgb(69, 67, 61);
   cursor: pointer;
-  border:rgb(252, 235, 184);
+  border: rgb(252, 235, 184);
   padding: 3rem;
+}
+
+.nav-links:hover {
+  color: rgb(179, 107, 57);
 }
 
 .card {
   text-align: center;
-  border: rgb(159, 98, 0) solid 1px;
+  /* border: rgb(159, 98, 0) solid 1px; */
+  background-color: rgb(215, 224, 230);
   padding: 1rem;
   width: 15rem;
   height: 25rem;
   display: inline-grid;
   margin: 1rem 2rem;
-  box-shadow: 3px 4px #fcd22ad3
+  /* box-shadow: 3px 4px #fcd22ad3; */
+  border-radius: 20px;
 }
 
 .dog-picture {
@@ -97,15 +117,23 @@ h1 {
 .like-button {
   position: relative;
   border: none;
-  background-color:rgb(252, 235, 184);
+  background-color: rgb(179,107,57);
   border-radius: 5px;
   height: 3rem;
   width: max-content;
-  font-size: 25px;
-  justify-self: left;
+  font-size: 20px;
+  justify-self: center;
   margin-bottom: 2px;
+  border-radius: 15px;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 .like-button:hover {
-  background-color:rgb(159, 98, 0) 
+  background-color: rgb(159, 98, 0);
+}
+
+
+.profile img {
+  width:auto;
+  height: 500px
 }

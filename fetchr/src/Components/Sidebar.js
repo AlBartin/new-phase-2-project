@@ -11,7 +11,7 @@ function Sidebar({ addDog }) {
 
   return (
     <div className="side-bar">
-      <button onClick={handleShowClick}>Do you want to join the fun?</button>
+      <button className = "sidebar-button" onClick={handleShowClick}>join the fun</button>
         {clickShow ? <SignUp addDog={addDog}/> : null}
       
         {/* <button type="button" name="age" value="1" onClick={()=> handleFilter("1")}>1</button>

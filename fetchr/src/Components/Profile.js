@@ -4,7 +4,7 @@ import Form from './Form'
 function Profile({ profile }) {
     console.log({profile})
     return (
-    <div>
+    <div className = "profile">
         <h2>{profile.name}</h2>
         <img src={profile.image} alt={profile.name}/>
         <h2>Breed: {profile.breed}</h2>

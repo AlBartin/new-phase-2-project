@@ -7,7 +7,7 @@ function HomePage({ dogs, onAddProfile, setProfile, addFavorite, addDog, removeF
 
   return (
     <div>
-
+      
       <DogContainer removeFavorite={removeFavorite} addFavorite={addFavorite} dogs={dogs} onAddProfile={onAddProfile} setProfile={setProfile} />
       <Sidebar addDog={addDog}/>
 
