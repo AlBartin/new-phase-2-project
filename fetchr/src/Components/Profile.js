@@ -2,7 +2,8 @@ import React from 'react'
 import Form from './Form'
 
 function Profile({ profile }) {
-    console.log({profile})
+    console.log("Profile:", profile)
+    if(profile.id > 0) {
     return (
     <div className = "profile">
         <h2>{profile.name}</h2>
@@ -16,12 +17,16 @@ function Profile({ profile }) {
             <li><strong>I Like:</strong> {profile.likes}</li>
             <li><strong>I Don't Like:</strong> {profile.dislikes}</li>
         </ul>
+   
         {/* <ul>Comments: {profile.comments}</ul>
         <ul>Connections: {profile.connections}</ul>
         <Form /> */}
 
     </div>
-  )
+  )}
+  else {
+      return (<h1 className="favorite-h1">No Profile Selected!</h1>)
+  }
 }
 
 export default Profile

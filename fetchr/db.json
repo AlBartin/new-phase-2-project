@@ -244,7 +244,7 @@
       "id": 16,
       "name": "Spot",
       "image": "https://i.imgur.com/FIG5b3F.jpg?1",
-      "breed": "Jack Russell Terrier",
+      "breed": "Jack Russell",
       "age": "3",
       "likes": "barking at passing cars",
       "dislikes": "when his human does not throw the ball",
@@ -285,15 +285,15 @@
       "id": 18
     },
     {
-      "name": "",
-      "image": "",
-      "breed": "",
-      "age": "",
-      "likes": "",
-      "dislikes": "",
-      "size": "",
-      "sex": "",
-      "location": "",
+      "name": "Tally",
+      "image": "https://i.imgur.com/626IQwf.jpg",
+      "breed": "Toller",
+      "age": "4",
+      "likes": "Rocks and swimming",
+      "dislikes": "Being left at home",
+      "size": "large",
+      "sex": "girl",
+      "location": "beach",
       "id": 19
     }
   ]
